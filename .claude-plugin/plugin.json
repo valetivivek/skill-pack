@@ -1,0 +1,20 @@
+{
+  "name": "skill-pack",
+  "description": "A growing collection of reusable Claude Code skills. Starts with handoff (durable session handoff docs with copy-pasteable resume prompts) and grows as new skills are added.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Vishnu Vivek Valeti",
+    "url": "https://valeti.live"
+  },
+  "homepage": "https://github.com/valetivivek/skill-pack",
+  "repository": "https://github.com/valetivivek/skill-pack",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "handoff",
+    "workflow",
+    "productivity"
+  ],
+  "skills": ["./skills/"]
+}
