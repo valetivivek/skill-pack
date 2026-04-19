@@ -61,23 +61,6 @@ If you're developing a skill in this repo (or want to try changes before pushing
 
 Edit the `SKILL.md`, reload Claude Code, retrigger. No rebuild step.
 
-## Repository layout
-
-```
-skill-pack/
-├── .claude-plugin/
-│   ├── plugin.json         # plugin manifest (name, version, skills glob)
-│   └── marketplace.json    # marketplace manifest (so users can `marketplace add` this repo)
-├── skills/
-│   └── handoff/
-│       └── SKILL.md        # one folder per skill, one SKILL.md inside
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-
-One folder per skill under `skills/`. The plugin manifest globs the whole `skills/` directory, so new skills are picked up by adding a folder and committing.
-
 ## Roadmap
 
 Skills currently on the shortlist (no promises on order):
