@@ -14,6 +14,7 @@ Starts small and grows. Every skill here is one I actually use. If a skill stops
 | Skill | Triggers on | What you get |
 |-------|-------------|--------------|
 | [`handoff`](skills/handoff/SKILL.md) | "handoff", "wrap up", "end of session", "pause here", "I'm done for today" | A timestamped markdown file at `./handoff/YYYY-MM-DD-HHMM-slug.md` capturing what was done, what's left, known issues, key decisions, and a copy-pasteable resume prompt for the next session (same agent or different). |
+| [`humanizer`](skills/humanizer/SKILL.md) | "humanize this", "de-AI this", "make this sound more human", "remove AI patterns", "this sounds too AI" | A rewrite of your text with the common AI tells stripped out: inflated significance, em dash overuse, rule-of-three padding, sycophantic openers, hedging, promotional vocabulary, and the rest of the patterns from Wikipedia's "Signs of AI writing" guide. |
 
 More skills land as they get written. See [Roadmap](#roadmap) below.
 
